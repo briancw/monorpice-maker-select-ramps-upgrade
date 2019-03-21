@@ -41,3 +41,7 @@ Don't trust the location of the potentiometer or other reference pics. Getting t
 - If a motor is moving in the wrong direction just flip the pins in the opposite orientation
 
 ### Tune Extruder and Hotend PID settings
+- Use Octoprint's terminal to run the command "M303 S200 C10"
+- After the print head heats and cools 10 times, it will return values which you can place in the Configuration.h file
+- Use the command "M303 E-1 S70 C10" to get PID values for the bed
+- I'm using temperatures of 200 and 70 for hotend and bed temps respectively. If you prefer different values, change accordingly.

@@ -29,3 +29,16 @@
 - 852: INVERT_Y_DIR false
 <br><br>
 - 891: Z_MAX_POS 180
+
+### PID Settings
+##### Hotend
+- // Monoprice Maker Select V2 (Tested by Brian)
+- #define DEFAULT_Kp 22.44
+- #define DEFAULT_Ki 1.61
+- #define DEFAULT_Kd 78.14
+
+##### Bed
+- // Monoprice Maker Select V2 (Tested by Brian)
+- #define DEFAULT_bedKp 285.15
+- #define DEFAULT_bedKi 55.25
+- #define DEFAULT_bedKd 367.92

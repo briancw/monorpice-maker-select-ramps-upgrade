@@ -1,0 +1,41 @@
+Changes:
+Configuration.h
+107:  #define SERIAL_PORT -1
+116:  #define SERIAL_PORT_2 0
+127:  #define BAUDRATE 115200
+134:  #define MOTHERBOARD BOARD_BIGTREE_SKR_V1_3
+
+I'm using this for my clone E3d hotend temp sensor
+407:  #define TEMP_SENSOR_0 11
+
+413:  #define TEMP_SENSOR_BED 5
+
+If using 2209's
+673:  #define X_DRIVER_TYPE  TMC2209
+674:  #define Y_DRIVER_TYPE  TMC2209
+675:  #define Z_DRIVER_TYPE  TMC2209
+680:  #define E0_DRIVER_TYPE TMC2209
+
+730:  #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 96 }
+737:  #define DEFAULT_MAX_FEEDRATE          { 200, 200, 8, 25 }
+745:  #define DEFAULT_MAX_ACCELERATION      { 800, 700, 100, 1000 }
+755:  #define DEFAULT_ACCELERATION          800
+756:  #define DEFAULT_RETRACT_ACCELERATION  800
+757:  #define DEFAULT_TRAVEL_ACCELERATION   1000
+922:  #define X_NOZZLE_TO_PROBE_OFFSET 10
+923:  #define Y_NOZZLE_TO_PROBE_OFFSET 10
+924:  #define Z_NOZZLE_TO_PROBE_OFFSET 0
+
+1023: maybe
+1055 and 1064: maybe mess with depending on carriage
+
+Configuration_adv.h
+349:  #define E0_AUTO_FAN_PIN FAN1_PIN
+1752: #define X_CURRENT     760
+1766: #define Y_CURRENT     760
+1780: #define Z_CURRENT     760
+1801: #define E0_CURRENT    900
+1940: #define MONITOR_DRIVER_STATUS
+1911: // #define STEALTHCHOP_E
+1955: #define HYBRID_THRESHOLD
+2026: #define TMC_DEBUG
